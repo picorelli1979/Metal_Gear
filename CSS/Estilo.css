@@ -1,0 +1,474 @@
+body{
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+
+}
+
+header img{
+     width:95%;
+     height: 150px;
+     background-color: gray;
+     margin-top: 10px;
+     margin-left: 30px;
+     border: solid white;
+}
+
+.Navbar ul{
+    background-color: gray;
+    color: black;
+    display:inline-flex;
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navbar li{
+    font-family: fantasy;
+    font-size: 22px;
+    margin: 20px;   
+}
+
+a{
+   color: black; 
+   text-decoration: none;  
+}
+
+a:hover{
+    background-color: darkgoldenrod;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    animation-direction: alternate;
+    animation: c-glowing-cinza 0.10s ease-in-out infinite;
+}
+
+.Container1{
+   display: flex;
+   margin-top: 20px;
+}
+
+.Container2{
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Rayden img{
+    height: 400px;
+    margin: 10px;
+    padding-left:30px;
+    margin-right: 50px;
+}
+
+.Rayden img:hover{
+    transform: scale(1.20);
+}
+
+.Rayden1 img{
+    height: 400px;
+    margin: 10px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.Rayden1 img:hover{
+    transform: scale(1.20);
+}
+
+.Galery img{
+    width: 680px;
+    height: 380px;
+    animation: c-glowing-cinza 0.8s ease-in-out infinite;
+    border: solid 10px gray;
+}
+
+.Container4{
+  border: solid  5px;
+  background-color: gray;
+  width: 90%;
+  margin: 70px;  
+}
+
+.Cenas img{
+     width: 390px;
+     height: 230px;
+     margin-right: 30px;
+}
+.Box1{
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;    
+}
+.Box2 {
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+
+}
+.Box3 {
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+}
+.Box4 {
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+}
+
+p{
+   font-size: 25px;
+   font-family: fantasy;
+   color:gray;
+   background-color: black;
+   border-radius: 20px;
+   width: 50%;
+   height: 200px;
+   padding-left: 15px;
+   margin: 10px;
+}
+
+.Box1 p:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transform: scale(1.05);
+    cursor: pointer;
+} 
+
+.Box2 p:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transform: scale(1.05);
+    cursor: pointer;
+} 
+
+.Box3 p:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transform: scale(1.05);
+    cursor: pointer;
+} 
+
+.Box4 p:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    transform: scale(1.05);
+    cursor: pointer;
+} 
+
+h1{
+    background-color: gray;
+    color: black;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size:  30px ;
+    font-family:fantasy;
+    border-radius: 10px; 
+    margin-left: 30px;  
+}
+
+h2{
+    background-color: gray;
+    color: black;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size:  30px ;
+    font-family:fantasy;
+    border-radius: 10px; 
+    margin-left: 70px;  
+}
+
+.Container5{
+     display: flex;      
+}
+
+.Box5 img{
+      width: 625px;
+      height: 400px;
+      border: solid gray 10px;
+      margin-left: 30px;
+      margin-top: 30px;      
+}
+
+.Box6 img{
+    width: 625px;
+    height: 400px;
+    border: solid gray 10px ;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.Topicos {
+    font-size: 40px;
+    letter-spacing: 10px;
+    background-color: gray;
+    margin-top: 50px;
+    text-align: center;
+    width: 95%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.Container6{
+     display: flex;
+     margin: 10px;     
+}
+
+.Texto1 p{
+    font-size: 30px;
+    border: solid gray 8px;
+    width: 625px;
+}
+
+.Texto2 p{
+    font-size: 30px;
+    border: solid gray 8px;
+    width: 625px;
+}
+
+.Texto1 p:hover{
+   background-color: gray;
+   color: black;
+   cursor: pointer;
+}
+.Texto2 p:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+ }
+
+ .Container7{
+    display: inline-flex;
+    margin:30px
+
+ }
+
+ .Inimigo1 img{
+    width: 252px;
+    height: 400px;
+ }
+ .Inimigo2 img{
+    width: 50px;
+    width: 252px;
+    height: 400px;
+ }
+ 
+ .Inimigo3 img{
+    width: 50px;
+    width: 252px;
+    height: 400px;
+ }
+ 
+ .Inimigo4 img{
+    width: 50px;
+    width: 252px;
+    height: 400px;
+ }
+ 
+ .Inimigo5 img{
+    width: 50px;
+    width: 252px;
+    height: 400px;
+ }
+
+ button{
+       text-align: center;
+       width: 130px;
+       font-family: fantasy;
+       border: solid white 2px;
+       border-radius: 5px;
+       color: black;
+       background-color: gray;
+       margin-left: 60px;
+       margin-top: 20px;
+ }
+
+ button:hover{
+      background-color: darkgoldenrod;
+      cursor: pointer;
+      transform: scale(1.30);
+      animation-direction: alternate;
+      animation: c-glowing-cinza 0.10s ease-in-out infinite;
+      border: solid var(--cor-dourado-01);
+ }
+
+ .Container8{
+    margin-top: 30px;
+    display: flex;
+ }
+
+ .Video video{
+    border: solid darkgoldenrod 10px;
+    margin-left: 30px;
+    width: 700px;
+ }
+
+ .Video2 img{
+    width: 580px;
+    height: 395px;
+    border: solid darkgoldenrod 10px;
+ }
+
+ .Container9{
+     border: solid gray 15px;
+     display: flex;
+     border-radius: 10px;
+     width: 95%;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+
+ .Galery2{
+     border: solid gray 10px;
+     width: 650px;
+     height: 400px; 
+     display: flex;
+     overflow-x: auto;
+     scroll-snap-type: x mandatory;
+            
+ }
+
+ .Galery2 img{
+     width: 100%;
+     height: 100%;
+     scroll-snap-align: start;   
+ }
+
+ .Botom img{
+     width: 340px;
+     height: 401px;
+ }
+
+ .Botom2 img{
+    width: 340px;
+    height: 401px;
+}
+
+.Container10{
+   display:flex;
+   margin-top: 30PX;
+   margin-left: 30px;
+}
+
+.Box7 img{    
+    width: 800px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.Box7 img:hover{    
+    transform: scale(1.10);
+    animation-direction: alternate;
+    animation: c-glowing-cinza 0.10s ease-in-out infinite;
+    border: solid 10px black;
+}
+
+.Container11{
+   border: solid black 5px;
+   background-color: rgba(117, 116, 116, 0.849);
+   display: flex;
+   width: 95%;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.Box8 img{
+    width: 400px;
+    height: 450px;
+}
+
+.Box9 img{
+    width: 500px;
+    height: 450px;
+}
+
+.Box10 img{
+    width: 400px;
+    height: 450px;
+}
+
+.Container12{
+     border: solid 5px gray;
+     display: flex;
+     margin-top: 30px;
+     width: 95%;
+     margin-left: 30px;
+}
+
+.Itens{
+    display: flex;
+}
+
+.Itens img{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.Box11 img:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    animation: c-glowing-cinza 0.15s ease-in-out infinite;
+    animation-direction: alternate;
+    border: solid var(--cor-cinza-01);
+}
+
+.Box12 img:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    animation: c-glowing-cinza 0.15s ease-in-out infinite;
+    animation-direction: alternate;
+    border: solid var(--cor-cinza-01);
+}
+
+.Box13 img:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    animation: c-glowing-cinza 0.15s ease-in-out infinite;
+    animation-direction: alternate;
+    border: solid var(--cor-cinza-01);
+}
+
+.Box14 img:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    animation: c-glowing-cinza 0.15s ease-in-out infinite;
+    animation-direction: alternate;  
+    border: solid var(--cor-cinza-01); 
+}
+
+.Container13{
+    display: flex;
+    margin: 50PX;
+    margin-left: 300PX;
+}
+
+footer{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    background-color: gray;
+    width: 95%;
+    height: 20px;
+    justify-content: space-around;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ 

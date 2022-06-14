@@ -1,0 +1,39 @@
+/* COMEÇO ANIMAÇÕES */
+@keyframes c-glowing-blue {
+    0% {
+      box-shadow: 0 0 5px var(--cor-azul-04), 0 0 5px var(--cor-azul-04), 0 0 15px var(--cor-azul-04), 0 0 20px var(--cor-azul-principal), 0 0 10px var(--cor-azul-principal), 0 0 10px var(--cor-azul-principal), 0 0 10px var(--cor-azul-principal), 0 0 10px var(--cor-azul-principal)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-azul-03), 0 0 2.5px var(--cor-azul-03), 0 0 7.5px var(--cor-azul-03), 0 0 10px var(--cor-azul-01), 0 0 5px var(--cor-azul-01), 0 0 5px var(--cor-azul-01), 0 0 5px var(--cor-azul-01), 0 0 2px var(--cor-azul-01)
+    }
+
+    to {
+        box-shadow: 0 0 2.5px var(--cor-azul-01), 0 0 2.5px var(--cor-azul-01), 0 0 7.5px var(--cor-azul-01), 0 0 10px var(--cor-azul-02), 0 0 5px var(--cor-azul-02), 0 0 5px var(--cor-azul-02), 0 0 5px var(--cor-azul-02), 0 0 2px var(--cor-azul-02)
+      }
+
+
+  }
+  
+  @keyframes c-glowing-cinza {
+    0% {
+      box-shadow: 0 0 5px var(--cor-cinza-01), 0 0 5px var(--cor-cinza-01), 0 0 15px var(--cor-cinza-01), 0 0 20px var(--cor-cinza-02), 0 0 10px var(--cor-cinza-02), 0 0 10px var(--cor-cinza-02), 0 0 10px var(--cor-cinza-02), 0 0 10px var(--cor-cinza-02)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-cinza-01), 0 0 2.5px var(--cor-cinza-01), 0 0 7.5px var(--cor-cinza-01), 0 0 10px var(--cor-cinza-02), 0 0 5px var(--cor-cinza-02), 0 0 5px var(--cor-cinza-02), 0 0 5px var(--cor-cinza-02), 0 0 2px var(--cor-cinza-02)
+    }
+  }
+  
+  @keyframes c-glowing-dourado {
+    0% {
+      box-shadow: 0 0 5px var(--cor-dourado-01), 0 0 5px var(--cor-dourado-01), 0 0 15px var(--cor-dourado-01), 0 0 20px var(--cor-dourado-02), 0 0 10px var(--cor-dourado-02), 0 0 10px var(--cor-dourado-02), 0 0 10px var(--cor-dourado-02), 0 0 10px var(--cor-dourado-02)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--cor-dourado-01), 0 0 2.5px var(--cor-dourado-01), 0 0 7.5px var(--cor-dourado-01), 0 0 10px var(--cor-dourado-02), 0 0 5px var(--cor-dourado-02), 0 0 5px var(--cor-dourado-02), 0 0 5px var(--cor-dourado-02), 0 0 2px var(--cor-dourado-02)
+    }
+  }
+  
+  
+  /* FIM ANIMAÇÕES */
